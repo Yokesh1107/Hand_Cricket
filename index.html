@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HAND CRICKET</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HAND CRICKET</h1>
+        <div class="inputNumbers">
+            <button onclick="player('1')">1</button>
+            <button onclick="player('2')">2</button>
+            <button onclick="player('3')">3</button>
+            <button onclick="player('4')">4</button>
+            <button onclick="player('5')">5</button>
+            <button onclick="player('6')">6</button>
+        </div>
+        <div class="display">
+            <div id="target"></div>
+            <div id="batOrBowl"></div>
+            <div id="wic"></div>
+            <div id="versus"></div>
+            <div id="score"></div>
+            <div id="cps"></div>
+            <div id="winorlose"></div>
+        </div>
+        <button class='stop' onclick="stop()">STOP</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background-color: #301934;
+    font-family: 'Kalam', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+        
+      
+}
+.inputNumbers{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.inputNumbers button{
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgb(3, 5, 5);
+    color: white;
+    font-size: 50px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.display{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0f0f0f;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+.stop{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-left: 650px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
